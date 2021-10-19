@@ -11,6 +11,7 @@ data "aws_iam_policy_document" "lambda_exec_assume_role_policy" {
   }
 }
 
+
 data "aws_iam_policy_document" "lambda_s3_policy" {
   statement {
     sid = "ListSourceBucket"
